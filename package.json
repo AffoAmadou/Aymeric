@@ -2,9 +2,10 @@
   "name": "webpack",
   "version": "1.0.0",
   "engines": {
-    "node": ">= 14.0.0"
+    "node": " 14.x"
   },
   "scripts": {
+    "build": "npm run backend:build && npm run frontend:build",
     "backend:build": "node app.js",
     "backend:development": "nodemon app.js",
     "frontend:build": "webpack --progress --config webpack.config.build.js",
