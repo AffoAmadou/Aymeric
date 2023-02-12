@@ -4,9 +4,9 @@
 
 // UTILS
 // ------------------------------------
-@import './utils/variables';
-@import './utils/functions';
-@import './utils/mixins';
+// @import './utils/variables';
+// @import './utils/functions';
+// @import './utils/mixins';
 // @import './utils/vendors';
 @import './utils/responsive';
 
@@ -21,7 +21,7 @@
 
 // COMPONENTS
 // ------------------------------------
-@import './components/preloader';
+// @import './components/preloader';
 
 // LAYOUT
 // ------------------------------------
@@ -29,5 +29,5 @@
 
 // PAGES
 // ------------------------------------
-@import './pages/home';
-@import './pages/about';
+@import './pages/home/home';
+@import './pages/about/about';

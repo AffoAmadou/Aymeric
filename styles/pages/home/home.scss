@@ -1,0 +1,88 @@
+.home {
+    width : 100%;
+    height: 100%;
+}
+
+.home__wrapper {}
+
+.home__container {}
+
+.home__content__wrapper {
+    width : 100vw;
+    height: 100vh;
+
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    canvas {
+        position: absolute;
+        top     : 0;
+        left    : 0;
+        z-index : -1;
+      }
+}
+
+.home__content {
+    width : 175.8rem;
+    height: 86.9rem;
+
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+    align-items     : center;
+}
+
+.home__title__wrapper {
+    text-align: center;
+}
+
+.home__title {
+    font-size: 5rem;
+}
+
+.home__position {
+    font-size: 3.5rem;
+}
+
+.home__cta {}
+
+.home__link {
+    background-color: transparent;
+    padding         : 1.4rem 3.9rem;
+    width           : fit-content;
+    text-align      : center;
+    font-size       : 2.5rem;
+    border          : .1rem solid #181818;
+    position        : relative;
+    
+
+    overflow: hidden;
+
+    // &::after {
+
+    //     height          : 7rem;
+    //     width           : 2rem;
+    //     position        : absolute;
+    //     top             : -2.3rem;
+    //     left            : -4rem;
+    //     background-color: #FFB115;
+    //     content         : "";
+    //     z-index         : 5;
+    //     transform       : rotate(45deg);
+    //     transition      : all .3s ease-in-out;
+    //     opacity         : .8;
+    // }
+
+    // //on hover make after slide to the right  using a transition
+    // &:hover {
+    //     &::after {
+    //         left: 9rem;
+    //     }
+    // }
+
+
+}
