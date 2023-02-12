@@ -1,24 +1,4 @@
-/*!
- * CSSPlugin 3.11.4
- * https://greensock.com
- *
- * Copyright 2008-2022, GreenSock. All rights reserved.
- * Subject to the terms at https://greensock.com/standard-license or for
- * Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, jack@greensock.com
-*/
-
-/*!
- * GSAP 3.11.4
- * https://greensock.com
- *
- * @license Copyright 2008-2022, GreenSock. All rights reserved.
- * Subject to the terms at https://greensock.com/standard-license or for
- * Club GreenSock members, the agreement issued with that membership.
- * @author: Jack Doyle, jack@greensock.com
-*/
-
-/*! ./CSSPlugin.js */
+/*! ../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */
 
 /*! ./_DataView */
 
@@ -192,8 +172,6 @@
 
 /*! ./get */
 
-/*! ./gsap-core.js */
-
 /*! ./hasIn */
 
 /*! ./identity */
@@ -222,19 +200,15 @@
 
 /*! ./memoize */
 
+/*! ./normalize-url */
+
 /*! ./property */
-
-/*! ./shaders/fragment.glsl */
-
-/*! ./shaders/vertex.glsl */
 
 /*! ./stubArray */
 
 /*! ./toString */
 
 /*! classes/Page */
-
-/*! gsap */
 
 /*! lodash/each */
 
@@ -247,6 +221,10 @@
 /*!**********************!*\
   !*** ./app/index.js ***!
   \**********************/
+
+/*!***************************!*\
+  !*** ./styles/index.scss ***!
+  \***************************/
 
 /*!*****************************!*\
   !*** ./app/classes/Page.js ***!
@@ -517,10 +495,6 @@
   \*********************************************/
 
 /*!**********************************************!*\
-  !*** ../../../../node_modules/gsap/index.js ***!
-  \**********************************************/
-
-/*!**********************************************!*\
   !*** ./node_modules/lodash/_assocIndexOf.js ***!
   \**********************************************/
 
@@ -597,14 +571,6 @@
   \*************************************************/
 
 /*!**************************************************!*\
-  !*** ../../../../node_modules/gsap/CSSPlugin.js ***!
-  \**************************************************/
-
-/*!**************************************************!*\
-  !*** ../../../../node_modules/gsap/gsap-core.js ***!
-  \**************************************************/
-
-/*!**************************************************!*\
   !*** ./node_modules/lodash/_basePropertyDeep.js ***!
   \**************************************************/
 
@@ -619,6 +585,14 @@
 /*!*********************************************************!*\
   !*** ./node_modules/lodash/_matchesStrictComparable.js ***!
   \*********************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/hmr/normalize-url.js ***!
+  \************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js ***!
+  \*******************************************************************************/
 
 //! .about ad esempio passato da una delle pagine  
 
