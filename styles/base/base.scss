@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  box-sizing : border-box;
+  user-select: none
+}
+
+html {
+  $vw        : 100vw;
+  font-size  : calc($vw / 1920px * 10px);
+  line-height: 1;
+
+  @include media('<phone') {
+    font-size: calc($vw / 750 * 10);
+  }
+}
