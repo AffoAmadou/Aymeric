@@ -33,6 +33,10 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "include-media": "^2.0.0"
+    "glslify-loader": "^2.0.0",
+    "include-media": "^2.0.0",
+    "normalize-wheel": "^1.0.1",
+    "prefix": "^1.0.0",
+    "raw-loader": "^4.0.2"
   }
 }
