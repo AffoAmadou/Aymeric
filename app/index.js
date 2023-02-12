@@ -1,8 +1,8 @@
 
-import * as THREE from 'three';
-import fragment from './shaders/fragment.glsl';
-import vertex from './shaders/vertex.glsl';
-import GSAP from 'gsap';
+// import * as THREE from 'three';
+// import fragment from './shaders/fragment.glsl';
+// import vertex from './shaders/vertex.glsl';
+// import GSAP from 'gsap';
 
 
 
